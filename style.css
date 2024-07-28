@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+}
+
+nav a{
+    color:white ;
+    text-decoration: none;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#s3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+header{
+    height: 80vh;
+    background-image: url('amazon-original-farzi-achieves-the-biggest-opening-for-a-new-local-original-show-on-prime-video-in-india-001.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+}
+
+header h1{
+    font-size: 3vw;
+}
+header h3{
+    font-size: 2vw;
+
+}
+header div{
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+header div button{
+    padding: 20px 50px;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.8;
+    background: skyblue;
+    border: none;
+    border-radius: 5px;
+}
+header div button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+body{
+    font-family: sans-serif;
+}
+#store{
+    padding: 10px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: scroll;
+}
+.items img{
+    width: 300px;
+}
